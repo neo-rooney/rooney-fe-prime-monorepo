@@ -1,12 +1,12 @@
 {
   "nodes": {
-    "@xyz/storybook": {
-      "name": "@xyz/storybook",
+    "@rooney/storybook": {
+      "name": "@rooney/storybook",
       "type": "app",
       "data": {
         "root": "services/storybook",
         "sourceRoot": "services/storybook",
-        "name": "@xyz/storybook",
+        "name": "@rooney/storybook",
         "projectType": "application",
         "tags": [
           "npm:public"
@@ -54,13 +54,13 @@
         "implicitDependencies": []
       }
     },
-    "@xyz/esbuild": {
-      "name": "@xyz/esbuild",
+    "@rooney/esbuild": {
+      "name": "@rooney/esbuild",
       "type": "lib",
       "data": {
         "root": "packages/esbuild",
         "sourceRoot": "packages/esbuild",
-        "name": "@xyz/esbuild",
+        "name": "@rooney/esbuild",
         "projectType": "library",
         "tags": [
           "npm:public"
@@ -108,13 +108,13 @@
         "implicitDependencies": []
       }
     },
-    "@xyz/themes": {
-      "name": "@xyz/themes",
+    "@rooney/themes": {
+      "name": "@rooney/themes",
       "type": "lib",
       "data": {
         "root": "packages/themes",
         "sourceRoot": "packages/themes",
-        "name": "@xyz/themes",
+        "name": "@rooney/themes",
         "projectType": "library",
         "tags": [
           "npm:public"
@@ -10366,88 +10366,88 @@
     }
   },
   "dependencies": {
-    "@xyz/storybook": [
+    "@rooney/storybook": [
       {
-        "source": "@xyz/storybook",
+        "source": "@rooney/storybook",
         "target": "npm:@chromatic-com/storybook@1.5.0",
         "type": "static"
       },
       {
-        "source": "@xyz/storybook",
+        "source": "@rooney/storybook",
+        "target": "@rooney/themes",
+        "type": "static"
+      },
+      {
+        "source": "@rooney/storybook",
         "target": "npm:@storybook/addon-essentials@8.1.11",
         "type": "static"
       },
       {
-        "source": "@xyz/storybook",
+        "source": "@rooney/storybook",
         "target": "npm:@storybook/addon-interactions@8.1.11",
         "type": "static"
       },
       {
-        "source": "@xyz/storybook",
+        "source": "@rooney/storybook",
         "target": "npm:@storybook/addon-links@8.1.11",
         "type": "static"
       },
       {
-        "source": "@xyz/storybook",
+        "source": "@rooney/storybook",
         "target": "npm:@storybook/addon-onboarding@8.1.11",
         "type": "static"
       },
       {
-        "source": "@xyz/storybook",
+        "source": "@rooney/storybook",
         "target": "npm:@storybook/blocks@8.1.11",
         "type": "static"
       },
       {
-        "source": "@xyz/storybook",
+        "source": "@rooney/storybook",
         "target": "npm:@storybook/react@8.1.11",
         "type": "static"
       },
       {
-        "source": "@xyz/storybook",
+        "source": "@rooney/storybook",
         "target": "npm:@storybook/react-vite@8.1.11",
         "type": "static"
       },
       {
-        "source": "@xyz/storybook",
+        "source": "@rooney/storybook",
         "target": "npm:@storybook/test@8.1.11",
         "type": "static"
       },
       {
-        "source": "@xyz/storybook",
-        "target": "@xyz/themes",
-        "type": "static"
-      },
-      {
-        "source": "@xyz/storybook",
+        "source": "@rooney/storybook",
         "target": "npm:prop-types@15.8.1",
         "type": "static"
       },
       {
-        "source": "@xyz/storybook",
+        "source": "@rooney/storybook",
         "target": "npm:storybook@8.1.11",
         "type": "static"
       },
       {
-        "source": "@xyz/storybook",
+        "source": "@rooney/storybook",
         "target": "npm:vite@5.3.1",
         "type": "static"
       }
     ],
-    "@xyz/esbuild": [
+    "@rooney/esbuild": [
       {
-        "source": "@xyz/esbuild",
+        "source": "@rooney/esbuild",
         "target": "npm:esbuild@0.16.17",
         "type": "static"
       }
     ],
-    "@xyz/themes": [
+    "@rooney/themes": [
       {
-        "source": "@xyz/themes",
-        "target": "@xyz/esbuild",
+        "source": "@rooney/themes",
+        "target": "@rooney/esbuild",
         "type": "static"
       },
       {
-        "source": "@xyz/themes",
+        "source": "@rooney/themes",
         "target": "npm:typescript",
         "type": "static"
       }

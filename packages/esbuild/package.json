@@ -1,5 +1,5 @@
 {
-  "name": "@xyz/esbuild",
+  "name": "@rooney/esbuild",
   "packageManager": "yarn@4.3.1",
   "main": "index.js",
   "files": [

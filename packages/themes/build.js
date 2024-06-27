@@ -1,4 +1,4 @@
-import run from "@xyz/esbuild";
+import run from "@rooney/esbuild";
 import pkg from "./package.json" assert { type: "json" };
 
 run({ pkg });

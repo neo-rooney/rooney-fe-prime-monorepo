@@ -1,5 +1,5 @@
 {
-  "name": "@xyz/themes",
+  "name": "@rooney/themes",
   "version": "0.0.1",
   "type": "module",
   "main": "dist/index.js",
@@ -20,7 +20,7 @@
     "clean": "rm -rf dist"
   },
   "devDependencies": {
-    "@xyz/esbuild": "workspace:^",
+    "@rooney/esbuild": "workspace:^",
     "typescript": "^5.5.2"
   }
 }
