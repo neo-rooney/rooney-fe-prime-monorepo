@@ -1,21 +1,21 @@
 {
   "run": {
-    "command": "nx storybook @rooney/storybook",
-    "startTime": "2024-06-27T06:20:16.796Z",
-    "endTime": "2024-06-27T06:20:36.768Z",
+    "command": "nx build @rooney/react-components-layout",
+    "startTime": "2024-06-27T07:05:38.278Z",
+    "endTime": "2024-06-27T07:05:43.079Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "@rooney/storybook:storybook",
-      "target": "storybook",
-      "projectName": "@rooney/storybook",
-      "hash": "14379484943982876403",
-      "startTime": "2024-06-27T06:20:16.799Z",
-      "endTime": "2024-06-27T06:20:36.768Z",
+      "taskId": "@rooney/react-components-layout:build",
+      "target": "build",
+      "projectName": "@rooney/react-components-layout",
+      "hash": "18394461026929790332",
+      "startTime": "2024-06-27T07:05:38.283Z",
+      "endTime": "2024-06-27T07:05:43.079Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 1
+      "status": 0
     }
   ]
 }
