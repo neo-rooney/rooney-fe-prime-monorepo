@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "nx build",
-    "dev:all": "yarn dev:storybook & yarn dev:packages",
+    "dev:all": "yarn dev:packages & yarn dev:storybook",
     "dev:storybook": "nx storybook @rooney/storybook",
     "dev:packages": "nx run-many --target=dev --projects='@rooney/themes,@rooney/react-components-*'",
     "graph": "nx run-many --targets build --graph",
