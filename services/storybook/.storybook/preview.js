@@ -1,3 +1,5 @@
+import "@rooney/themes/themes.css";
+
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
