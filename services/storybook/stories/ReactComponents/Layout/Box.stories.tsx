@@ -17,7 +17,7 @@ type Story = StoryObj<typeof Box>;
 
 export const Default: Story = {
   args: {
-    padding: "5",
+    padding: 5,
     background: "pink",
     boxShadow: "xl",
     borderRadius: "md",
